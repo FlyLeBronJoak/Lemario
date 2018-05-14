@@ -18,7 +18,7 @@ public class LemarioNuevo {
     ArrayList<String> lemario = new ArrayList();
 
     public void cargaFicheroLemario() {
-        File fichero = new File("src/ejerciciolemario/lemario-20101017.txt");
+        File fichero = new File("src/lemarionuevo/lemario-20101017.txt");
         //Array[] arrayFichero = new Array[1];
         try {
             FileReader fr = new FileReader(fichero);
