@@ -44,7 +44,7 @@ public class LemarioNuevo {
         return false;
     }
 
-    public boolean escaleraDePalabras(ArrayList<String> escalera) {
+    public boolean escalera(ArrayList<String> escalera) {
         boolean palabra = true;
         boolean palabra2 = true;
         int pal;
@@ -101,6 +101,6 @@ public class LemarioNuevo {
         listaPalabras.add("RATA");
         listaPalabras.add("RATO");
 
-        System.out.println(ejercicio.escaleraDePalabras(listaPalabras));
+        System.out.println(ejercicio.escalera(listaPalabras));
     }
 }
